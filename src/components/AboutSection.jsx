@@ -56,9 +56,9 @@ export default function AboutSection() {
     return (
         <section id='about' ref={sectionRef} className='about-section'>
             <div className='about-container'>
-                <div className='hero-eyebrow anim-slide-right d1 d-flex align-items-center gap-2 mb-4'>
-                    <div className='hero-eyebrow__line' />
-                    <span className='hero-eyebrow__label'>About</span>
+                <div className={`d-flex align-items-center gap-3 mb-5 ${a("animate-fade-up", 0)}`}>
+                    <span className="about-section-label">02 / About</span>
+                    <div className="about-section-rule" />
                 </div>
                 <div className='row mb-5 about-bio-grid'>
                     <div className={`col-lg-12 ${a("animate-slide-r", 80)}`}>
