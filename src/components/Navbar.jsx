@@ -20,7 +20,7 @@ export default function Navbar() {
                         href='#'
                         className='d-flex align-items-center gap-2 text-decoration-none'
                     >
-                        <span className='brand-name'>jhnvnmcrg</span>
+                        <span className='brand-name'>JHNVNMCRG</span>
                     </a>
                     <nav className='d-none d-md-flex align-items-center gap-4'>
                         {links.map(l => (

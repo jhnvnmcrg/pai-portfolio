@@ -134,8 +134,7 @@ export default function HeroSection() {
                         </div>
                     </div>
                     <div className='col-lg-7 col-md-4 mt-5 mt-lg-5'>
-                        <div className='hero-section'>
-                            {/* Eyebrow */}
+                        <div className='hero-section about-container'>
                             <div className='hero-eyebrow anim-slide-right d1 d-flex align-items-center gap-2 mb-4'>
                                 <div className='hero-eyebrow__line' />
                                 <span className='hero-eyebrow__label'>
